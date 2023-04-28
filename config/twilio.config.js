@@ -11,7 +11,6 @@ const sendPhoneMsg = async (num) => {
     const message = await client.messages.create({
       body: 'Su pedido se ha recibido y se encuentra en proceso',
       from: '+14155238886',
-      /* to: `+${num}`, */
       to: `+${num}`,
     });
     warnLogger.info("Mensaje de texto enviado al comprador");

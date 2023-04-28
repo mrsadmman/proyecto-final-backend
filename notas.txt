@@ -1,0 +1,4 @@
+Realizar vista de inicio en el cual elegis si sos admin o user
+
+admin= crud de productos
+user= solo get de productos y puede añadir o no al carrito
